@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3bfc288d87.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/style.css">
+  <title>ToDo App</title>
+</head>
+
+<body>
+  <section class="container-fluid mt">
+    <h1 class="title text-center mt-4">ToDo</span> App</h1>
+    <div class="container">
+      <form id="form" class="md-form">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button id="addBtn" class="btn btn-success" type="submit"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <input id="todoInput" type="text" class="form-control" placeholder="Add your ToDo..." autocomplete="off">
+        </div>
+        <ul id="listGroup" class="list-group mt-4">
+        </ul>
+      </form>
+      <div class="alert alert-warning" role="alert">
+        Enter your ToDo...
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

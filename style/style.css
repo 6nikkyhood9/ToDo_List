@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightsalmon;
+}
+
+.mt {
+  margin-top: 150px;
+}
+
+.title {
+  color: white;
+  font-weight: 900;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checked {
+  content: '';
+  background-color: blanchedalmond;
+  text-decoration: line-through;
+}
+
+.form-check-input {
+  margin-top: 0;
+  margin-left: 0;
+  
+}
+
+.list-text {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.alert {
+  display: none;
+}
